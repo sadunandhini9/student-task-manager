@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
